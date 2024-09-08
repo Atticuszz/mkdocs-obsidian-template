@@ -1,0 +1,11 @@
+[project]
+name = "mkdocs-obsidian-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.5.34",
+    "mkdocs-roamlinks-plugin>=0.3.2",
+    "mkdocs-rss-plugin>=1.15.0",
+]
