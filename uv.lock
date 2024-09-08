@@ -261,6 +261,7 @@ dependencies = [
     { name = "mkdocs-material" },
     { name = "mkdocs-roamlinks-plugin" },
     { name = "mkdocs-rss-plugin" },
+    { name = "pymdown-extensions" },
 ]
 
 [package.dev-dependencies]
@@ -273,6 +274,7 @@ requires-dist = [
     { name = "mkdocs-material", specifier = ">=9.5.34" },
     { name = "mkdocs-roamlinks-plugin", specifier = ">=0.3.2" },
     { name = "mkdocs-rss-plugin", specifier = ">=1.15.0" },
+    { name = "pymdown-extensions", specifier = ">=10.9" },
 ]
 
 [package.metadata.requires-dev]

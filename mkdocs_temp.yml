@@ -235,7 +235,7 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   #language: 'en'
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "direction" option is commonly used together with the "language" option.                         |
@@ -324,7 +324,7 @@ theme:
   icon:
     logo: 'material/library'
     repo: 'material/library'
-  
+
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The "admonition" option allows you to set a different icon for each admonition type.                 |

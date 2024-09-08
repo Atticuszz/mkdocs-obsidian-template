@@ -3,33 +3,69 @@ site_name: obsidian-mkdocs template
 theme:
     name: 'material'
     palette:
+  # +------------------------------------------------------------------------------------------------------+
+  # |                                                                                                      |
+  # | The "palette" section is a Material option and allows you to define specific style options such as   |
+  # | Color-Scheme, and primary and secondary Color.                                                       |
+  # |                                                                                                      |
+  # | You can also define multiple palettes that can have different Color Schemses and primary and/or      |
+  # | secondary Colors.                                                                                    |
+  # |                                                                                                      |
+  # | Read More:                                                                                           |
+  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/                             |
+  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: green
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: green
-      accent: blue
+      accent: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode
+  # +------------------------------------------------------------------------------------------------------+
+  # |                                                                                                      |
+  # | With the "font" option can you set a different font to use.                                          |
+  # |                                                                                                      |
+  # | Material supports all Google fonts, but you can also define your own ones if you choose so.          |
+  # |                                                                                                      |
+  # | The "text" option is used for the regular font while "code" is used for code blocks, inline code and |
+  # | similar.                                                                                             |
+  # |                                                                                                      |
+  # | Read More:                                                                                           |
+  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
+  # |                                                                                                      |
+  # +------------------------------------------------------------------------------------------------------+
+    font:
+      text: 'Lora'
+      code: 'JetBrains Mono'
+
 
     # set edit option in page with jump to edit_uri:
     features:
+      # code
+      - content.code.copy
       - content.action.edit
+      # - content.code.select  can be enable for insiders
+      # prefect page
+      - navigation.instant
+      - navigation.instant.prefetch
     icon:
       edit: material/pencil
       view: material/eye
       # set icon to repo: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=Some%20popular%20choices%3A
       repo: fontawesome/brands/github
+
+
 # To display a link to the repository of your project as part of your documentation: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=In%20order%20to%20display%20a%20link%20to%20the%20repository%20of%20your%20project%20as%20part%20of%20your%20documentation
 repo_url: https://github.com/Atticuszz/mkdocs-obsidian-template
 # set repo name
@@ -38,51 +74,87 @@ repo_name: Atticuszz/mkdocs-obsidian-template
 edit_uri: edit/main/docs # Uncomment to define a different URI/URL for the "edit" option
 
 
-# Extensions
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | MkDocs allows the usage of Markdown extensions which can do various things.                            |
+# |                                                                                                        |
+# | Material includes the pymdownx extension which provides a lot of useful features to use.               |
+# |                                                                                                        |
+# | Note that some extensions may use specific settings that you need to set.                              |
+# | Please check out the official documentation of PyMdownx for more information:                          |
+# | https://facelessuser.github.io/pymdown-extensions/                                                     |
+# |                                                                                                        |
+# | Material already provides required CSS and JS values for the PyMdownX Extensions, which means you do   |
+# | not need to set them up yourself.                                                                      |
+# |                                                                                                        |
+# | Read More:                                                                                             |
+# | - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions                                 |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
 markdown_extensions:
   # admonition setting: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end:~:text=Custom%20admonitions-,Admonitions,-%C2%B6
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-
-  - footnotes
-  # - attr_list
-  - pymdownx.arithmatex:
-      generic: true
-  # - pymdownx.superfences
-  # - pymdownx.details
-  # - pymdownx.magiclink
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - def_list
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-  - toc:
+  - attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  - markdown.extensions.toc:
       permalink: true
+
+  - pymdownx.b64
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.escapeall
+  - pymdownx.extra
+  # - pymdownx.extrarawhtml
+
+  # - pymdownx.keys
+  # - pymdownx.magiclink
+  # - pymdownx.mark
+  # - pymdownx.pathconverter
+  # - pymdownx.progressbar
+  # - pymdownx.smartsymbols
+  # -
+  # - pymdownx.striphtml
+  # - pymdownx.tabbed
+  # list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+    # math
+  - pymdownx.arithmatex:
+      generic: true
+  # - pymdownx.tilde
+  #code
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  # table
+  - tables
 
 plugins:
   - search
   - roamlinks
   - blog
   - rss:
-      match_path: blog/posts/.* 
+      match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
       categories:
         - categories
         - tags
-
+# math and mermaid
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
