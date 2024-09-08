@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Features/Mermaid Diagrams.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Mermaid Diagrams.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Mermaid Diagrams.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Features/Mermaid Diagrams.md"
+                "file": "README.md"
               }
             }
           },
@@ -208,12 +208,12 @@
   },
   "active": "215eec8d231b0fe8",
   "lastOpenFiles": [
+    "docs/Features/Mermaid Diagrams.md",
     "docs/Features/Table.md",
     "docs/Features/code.md",
     "docs/Features/Admonitions.md",
     "docs/Features/LaTeX Math Support.md",
     "docs/Features/list.md",
-    "docs/Features/Mermaid Diagrams.md",
     "docs/Features/Text Formatting.md",
     "docs/Features/markdown_extensions.md",
     "README.md",

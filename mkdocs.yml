@@ -95,11 +95,11 @@ markdown_extensions:
   # admonition setting: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end:~:text=Custom%20admonitions-,Admonitions,-%C2%B6
   - admonition
   - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
+      # custom_fences:
+        # - name: mermaid
+        #   class: mermaid
+          # format: !!python/name:pymdownx.superfences.fence_code_format
 
   - attr_list
   - markdown.extensions.codehilite:
