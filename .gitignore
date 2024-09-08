@@ -164,3 +164,4 @@ cython_debug/
 *.pyc
 .ruff_cache/
 
+site

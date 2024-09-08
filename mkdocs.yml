@@ -95,24 +95,30 @@ markdown_extensions:
   # admonition setting: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end:~:text=Custom%20admonitions-,Admonitions,-%C2%B6
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-      # custom_fences:
-        # - name: mermaid
-        #   class: mermaid
-          # format: !!python/name:pymdownx.superfences.fence_code_format
 
+
+
+
+  # mermaid
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  # attr_list
   - attr_list
   - markdown.extensions.codehilite:
       guess_lang: true
   - markdown.extensions.toc:
       permalink: true
 
-  - pymdownx.b64
-  - pymdownx.betterem
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.escapeall
-  - pymdownx.extra
+  # - pymdownx.b64
+  # - pymdownx.betterem
+  # - pymdownx.caret
+  # - pymdownx.critic
+  # - pymdownx.escapeall
+  # - pymdownx.extra
   # - pymdownx.extrarawhtml
 
   # - pymdownx.keys
@@ -155,6 +161,6 @@ plugins:
         - tags
 # math and mermaid
 extra_javascript:
-
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js

@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-format_md="scripts:convert_obsidian_callouts"
+format_md=".scripts:convert_obsidian_callouts"
 
 [tool.uv]
 dev-dependencies = [
