@@ -62,3 +62,4 @@ By default, the sections and pages will follow the folder structure within `/doc
 
 ### RoodMap
 - [x] try to sync features with `Obsidian` with  [mkdocs-material markdown_plugin](https://squidfunk.github.io/mkdocs-material/reference/)
+https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax
