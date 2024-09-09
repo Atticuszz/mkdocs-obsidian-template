@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Features/Admonitions.md",
+                "file": "docs/Features/Draw.io.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,6 +32,16 @@
         "id": "26fe429cec96d459",
         "type": "tabs",
         "children": [
+          {
+            "id": "d6cc1095299bb2f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
           {
             "id": "a7f456f507c2269d",
             "type": "leaf",
@@ -75,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Admonitions.md",
+                "file": "docs/Features/Draw.io.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Admonitions.md",
+                "file": "docs/Features/Draw.io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Features/Admonitions.md"
+                "file": "docs/Features/Draw.io.md"
               }
             }
           },
@@ -156,18 +166,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7f456f507c2269d",
+  "active": "bdaf2a47bdf82e67",
   "lastOpenFiles": [
-    "assests/Untitled Diagram.svg",
+    "assests/drawio/test.drawio.svg",
     "docs/Features/Draw.io.md",
+    "docs/Features/LaTeX Math Support.md",
+    "docs/Features/Diagrams.md",
+    "docs/Features/code.md",
+    "docs/Features/Admonitions.md",
+    "assests/Untitled Diagram.svg",
     "assests/drawio/test.drawio",
     "assests/drawio",
     "assests",
     "Untitled.md",
     "docs/Features/Untitled Diagram.svg",
-    "docs/Features/Admonitions.md",
-    "docs/Features/code.md",
-    "docs/Features/Diagrams.md",
     "docs/js/mathjax.js",
     "docs/js",
     "docs/Features/markdown_extensions.md",
