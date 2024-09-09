@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Features/Draw.io.md",
+                "file": "docs/Features/Draw.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Draw.io.md",
+                "file": "docs/Features/Draw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Draw.io.md",
+                "file": "docs/Features/Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Features/Draw.io.md"
+                "file": "docs/Features/Draw.md"
               }
             }
           },
@@ -168,16 +168,22 @@
   },
   "active": "bdaf2a47bdf82e67",
   "lastOpenFiles": [
-    "README.md",
-    "docs/Features/Text Formatting.md",
-    "docs/Features/Table.md",
-    "docs/Features/markdown_extensions.md",
     "docs/Features/Admonitions.md",
     "docs/Features/code.md",
+    "docs/Features/list.md",
+    "docs/Features/Table.md",
+    "assests/drawio/test.drawio.svg",
+    "Excalidraw/Drawing 2024-09-09 09.42.57.excalidraw.md",
+    "docs/Features/Draw.md",
     "docs/Features/LaTeX Math Support.md",
     "docs/Features/Diagrams.md",
-    "docs/Features/Draw.io.md",
-    "assests/drawio/test.drawio.svg",
+    "Excalidraw/Drawing 2024-09-09 09.48.26.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-09 09.48.26.excalidraw",
+    "Excalidraw/Drawing 2024-09-09 09.48.26.excalidraw.svg",
+    "Excalidraw",
+    "README.md",
+    "docs/Features/Text Formatting.md",
+    "docs/Features/markdown_extensions.md",
     "assests/Untitled Diagram.svg",
     "assests/drawio/test.drawio",
     "assests/drawio",
@@ -185,7 +191,6 @@
     "Untitled.md",
     "docs/Features/Untitled Diagram.svg",
     "docs/js/mathjax.js",
-    "docs/js",
-    "docs/Features/list.md"
+    "docs/js"
   ]
 }

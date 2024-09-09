@@ -2,7 +2,8 @@
   "cssTheme": "Things",
   "enabledCssSnippets": [
     "page_width",
-    "zotero-annotations"
+    "zotero-annotations",
+    "excalidraw"
   ],
   "accentColor": "",
   "baseFontSize": 17
