@@ -57,3 +57,8 @@ By default, the sections and pages will follow the folder structure within `/doc
 - [mathieudutour/gatsby-digital-garden: digital garden with Gatsby](https://github.com/mathieudutour/gatsby-digital-garden)
 - [TuanManhCao/digital-garden: Free Obisidian Publish alternative](https://github.com/TuanManhCao/digital-garden)
 
+
+
+
+### RoodMap
+- [x] try to sync features with `Obsidian` with  [mkdocs-material markdown_plugin](https://squidfunk.github.io/mkdocs-material/reference/)
