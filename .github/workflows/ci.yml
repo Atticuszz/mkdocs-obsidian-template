@@ -18,9 +18,14 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-roamlinks-plugin
-      - run: pip install mkdocs-rss-plugin
-      - run: pip install mkdocs-glightbox
+      # - run: pip install mkdocs-material
+      # - run: pip install mkdocs-roamlinks-plugin
+      # - run: pip install mkdocs-rss-plugin
+      # - run: pip install mkdocs-glightbox
       # - run: pip install mkdocs-mermaid2-plugin
-      - run: mkdocs gh-deploy --force
+      - name: Install dependencies with uv
+        run: |
+          # Install latest uv version using the installer
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          uv sync
+      - run: uv run mkdocs gh-deploy --force
