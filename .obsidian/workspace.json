@@ -211,8 +211,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afcfd986b2417280",
+  "active": "e5fb1abf4287bce9",
   "lastOpenFiles": [
+    "assets/drawio/test.drawio.svg",
+    "assets/drawio/test.drawio",
+    "assets/drawio",
+    "assets",
     "docs/Features/Icons, Emojis.md",
     "docs/Features/Image.md",
     "docs/Features/Text Formatting.md",
@@ -243,13 +247,9 @@
     "docs/Language/python/py-env/conda.md",
     "docs/Language/python/py-env/Poetry.md",
     "docs/Language/python/py-env/Pip.md",
-    "docs/VCS/git.md",
     "essay/zotero/attachments/gs_spalt/introduce/Sandström et al_2023_Point-slam.pdf",
     "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF2.pdf",
     "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Kerl et al_2013_Dense visual SLAM for RGB-D cameras.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Chung et al_2023_Orbeez-slam.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce",
     "assets/20240822115648.png",
     "assets/Pasted image 20240727181456.png",
     "assets/Pasted image 20240727181353.png",

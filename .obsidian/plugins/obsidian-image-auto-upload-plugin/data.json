@@ -5,7 +5,7 @@
   "deleteServer": "http://127.0.0.1:36677/delete",
   "imageSizeSuffix": "",
   "picgoCorePath": "",
-  "workOnNetWork": true,
+  "workOnNetWork": false,
   "fixPath": false,
   "applyImage": true,
   "newWorkBlackDomains": "",
