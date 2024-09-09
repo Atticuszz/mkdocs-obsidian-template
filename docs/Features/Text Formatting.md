@@ -1,18 +1,51 @@
-# Text Formatting 
+## List
+[Lists - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/lists/)
+### attr_list
 
-You can have lists like this
+- attr_list
+- attr_list
+- attr_list
+### pymdownx.tasklist:
 
-- first
-- second
-- third
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    - [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
-Or checklist lists to
+### def_list
+#### List, unordered
+- Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur
+  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
+  lacinia sed. Aenean in finibus diam.
 
-- [ ] ==Get==
-- [ ] things
-- [ ] ~~done~~
+    * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
+    * Nam vulputate tincidunt fringilla.
+    * Nullam dignissim ultrices urna non auctor.
 
-Also, get highlights and strikethroughs as above (similar to Obsidian).
+#### Using ordered lists
+1.  Vivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis
+    sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis
+    nulla. Vivamus a pharetra leo.
+
+    1.  Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet
+        quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a
+        ultricies libero efficitur sed.
+
+    2.  Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet
+        rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a.
+
+        1.  Mauris dictum mi lacus
+        2.  Ut sit amet placerat ante
+        3.  Suspendisse ac eros arcu
+
+## Highlight and Strikethrough
+
+[Formatting - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/formatting/)
 
 
-More formatting options for your webpage [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-changes). (but not compatible with Obsidian)
+- ==This was marked (highlight)==
+- ~~This was deleted (strikethrough)~~
+
+

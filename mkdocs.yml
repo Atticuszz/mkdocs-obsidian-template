@@ -56,6 +56,8 @@ theme:
       - content.code.copy
       - content.action.edit
       # - content.code.select  can be enable for insiders
+      # footnotes
+      - content.footnote.tooltips
       # prefect page
       - navigation.instant
       - navigation.instant.prefetch
@@ -123,7 +125,7 @@ markdown_extensions:
 
   # - pymdownx.keys
   # - pymdownx.magiclink
-  # - pymdownx.mark
+
   # - pymdownx.pathconverter
   # - pymdownx.progressbar
   # - pymdownx.smartsymbols
@@ -147,8 +149,23 @@ markdown_extensions:
   - pymdownx.snippets
   # table
   - tables
+  # footnotes
+  - footnotes
 
+  ## Formatting
+  # highlight
+  - pymdownx.mark
+  # strikethrough
+  - pymdownx.tilde
+  # emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Image
+  - md_in_html
 plugins:
+  # image zoom
+  - glightbox
   - search
   - roamlinks
   - blog
