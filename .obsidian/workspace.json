@@ -1,60 +1,39 @@
 {
   "main": {
-    "id": "f9508c72efec9470",
+    "id": "fb81dfa5f3ea052e",
     "type": "split",
     "children": [
       {
-        "id": "250d0c2daf1284e4",
+        "id": "b2f4f5709708c6fc",
         "type": "tabs",
         "children": [
           {
-            "id": "215eec8d231b0fe8",
+            "id": "d90094787ab54ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c9df18a01ae789f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "afcfd986b2417280",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Features/Diagrams.md",
+                "file": "docs/Features/Draw.io.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1cf8a6c5889338d6",
+    "id": "8f3b568cfb77a631",
     "type": "split",
     "children": [
       {
-        "id": "986c2766e027ae11",
+        "id": "26fe429cec96d459",
         "type": "tabs",
         "children": [
           {
-            "id": "e5fb1abf4287bce9",
+            "id": "7012b61e75b2fea2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,15 +43,7 @@
             }
           },
           {
-            "id": "3af94c3f442307d5",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "1d2a417b4d4421b7",
+            "id": "a7f456f507c2269d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -85,30 +56,38 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "38a1c8d4e8e5651c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 300
   },
   "right": {
-    "id": "47a7fb051f9573eb",
+    "id": "860db03968101753",
     "type": "split",
     "children": [
       {
-        "id": "1be3b56d45aba669",
+        "id": "33e0e458d03e3fc4",
         "type": "tabs",
         "children": [
           {
-            "id": "cbb2b0927a9a2b61",
+            "id": "3639124b1dab70aa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Diagrams.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "docs/Features/Draw.io.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -118,19 +97,19 @@
             }
           },
           {
-            "id": "dbce23fdc71b5bd7",
+            "id": "02a8dc4624db1309",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Diagrams.md",
+                "file": "docs/Features/Draw.io.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5d12bf5c232f51b8",
+            "id": "b7d30ccf50a743dd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,7 +120,17 @@
             }
           },
           {
-            "id": "b12cdacea1391417",
+            "id": "33c36d5ff72e60bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Features/Draw.io.md"
+              }
+            }
+          },
+          {
+            "id": "113d667b27a61764",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,118 +140,47 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "fe33bc386c72aa8e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "docs/Features/Diagrams.md"
-              }
-            }
-          },
-          {
-            "id": "6c7a22ce9a44906b",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
-            }
-          },
-          {
-            "id": "b02e2e30d05790c3",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "79aef470e1fbe4d9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
-      "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false,
-      "switcher:Open quick switcher": false,
       "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-git:Open Git source control": false
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "b02e2e30d05790c3",
+  "active": "7012b61e75b2fea2",
   "lastOpenFiles": [
-    "docs/Features/Mermaid Diagrams.md",
-    "docs/Features/code.md",
-    "README.md",
-    "docs/Features/Diagrams.md",
-    "docs/Features/Table.md",
+    "assests/drawio/test.drawio",
+    "assests/drawio",
+    "assests",
+    "Untitled.md",
+    "docs/Features/Draw.io.md",
+    "docs/Features/Untitled Diagram.svg",
     "docs/Features/Admonitions.md",
-    "docs/Features/LaTeX Math Support.md",
-    "docs/Features/list.md",
-    "docs/Features/Text Formatting.md",
+    "docs/Features/code.md",
+    "docs/Features/Diagrams.md",
+    "docs/js/mathjax.js",
+    "docs/js",
     "docs/Features/markdown_extensions.md",
-    "essay/texs/GsplatLoc/main.md",
-    "docs/tools/IDE/vscode.md",
-    "essay/texs/GsplatLoc/mess notes.md",
-    "docs/Language/python/py-env/UV.md",
-    "docs/tools/IDE/JetBrains.md",
-    "docs/tools/IDE/plugin.md",
-    "docs/OS/Ubuntu/shell.md",
-    "docs/Language/python/py-env/conda.md",
-    "docs/Language/python/py-env/Poetry.md",
-    "docs/Language/python/py-env/Pip.md",
-    "docs/VCS/git.md",
-    "docs/tutorials/KnowledgeHub.md",
-    "essay/zotero/attachments/gs_spalt/introduce/Sandström et al_2023_Point-slam.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF2.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Kerl et al_2013_Dense visual SLAM for RGB-D cameras.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Chung et al_2023_Orbeez-slam.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce",
-    "essay/zotero/attachments/gs_spalt/experiments/Zhou et al_2018_Open3D.pdf",
-    "essay/zotero/attachments/gs_spalt/experiments/Mur-Artal_Tardós_2017_Orb-slam2.pdf",
-    "essay/zotero/attachments/gs_spalt/experiments/Campos et al_2021_Orb-slam3.pdf",
-    "essay/zotero/attachments/gs_spalt/experiments",
-    "assets/20240822115648.png",
-    "essay/zotero/annotations/huCGSLAMEfficientDense2024.md",
-    "essay/journals/ITE computer vision.md",
-    "docs/OS/GPU.md",
-    "docs/account.md",
-    "assets/Pasted image 20240727181456.png",
-    "assets/Pasted image 20240727181353.png",
-    "assets/huangPhotoSLAMRealtimeSimultaneous2024/huangPhotoSLAMRealtimeSimultaneous2024-5-x457-y204.png",
-    "assets/screenshot.png",
-    "assets/Pasted image 20240524150219.png",
-    "assets/guptaNDT6DColor2023/guptaNDT6DColor2023-14-x56-y502.png",
-    "assets/guptaNDT6DColor2023/guptaNDT6DColor2023-13-x43-y370.png",
-    "assets/Pasted image 20240521203441.png",
-    "assets/renRobustGICPbased3D2019/renRobustGICPbased3D2019-4-x63-y60.png",
-    "未命名.canvas",
-    "未命名 3.canvas",
-    "未命名 2.canvas",
-    "未命名 1.canvas",
-    "Untitled.canvas"
+    "docs/Features/list.md",
+    "docs/Features/Table.md"
   ]
 }
