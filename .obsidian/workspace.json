@@ -168,12 +168,16 @@
   },
   "active": "bdaf2a47bdf82e67",
   "lastOpenFiles": [
-    "assests/drawio/test.drawio.svg",
-    "docs/Features/Draw.io.md",
+    "README.md",
+    "docs/Features/Text Formatting.md",
+    "docs/Features/Table.md",
+    "docs/Features/markdown_extensions.md",
+    "docs/Features/Admonitions.md",
+    "docs/Features/code.md",
     "docs/Features/LaTeX Math Support.md",
     "docs/Features/Diagrams.md",
-    "docs/Features/code.md",
-    "docs/Features/Admonitions.md",
+    "docs/Features/Draw.io.md",
+    "assests/drawio/test.drawio.svg",
     "assests/Untitled Diagram.svg",
     "assests/drawio/test.drawio",
     "assests/drawio",
@@ -182,8 +186,6 @@
     "docs/Features/Untitled Diagram.svg",
     "docs/js/mathjax.js",
     "docs/js",
-    "docs/Features/markdown_extensions.md",
-    "docs/Features/list.md",
-    "docs/Features/Table.md"
+    "docs/Features/list.md"
   ]
 }
