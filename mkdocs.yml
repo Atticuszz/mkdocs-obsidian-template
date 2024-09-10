@@ -61,6 +61,8 @@ theme:
       # prefect page
       - navigation.instant
       - navigation.instant.prefetch
+      # The progress indicator will only show if the page hasn't finished loading after 400ms
+      - navigation.instant.progress
       # top-level selection move to top tabs
       - navigation.tabs
       # top-2 section rendered
