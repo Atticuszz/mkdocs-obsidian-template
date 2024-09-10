@@ -58,7 +58,7 @@ theme:
       # - content.code.select  can be enable for insiders
       # footnotes
       - content.footnote.tooltips
-      # prefect page
+      # The site_url setting must be set
       - navigation.instant
       # - navigation.instant.prefetch enable for insiders
       # The progress indicator will only show if the page hasn't finished loading after 400ms
@@ -82,7 +82,7 @@ theme:
       edit: material/pencil
       view: material/eye
       # set icon to repo: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=Some%20popular%20choices%3A
-      repo: fontawesome/brands/git-all 
+      repo: fontawesome/brands/github
       logo: logo-monochrome
 
 
