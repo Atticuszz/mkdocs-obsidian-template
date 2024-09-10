@@ -60,11 +60,12 @@ theme:
       - content.footnote.tooltips
       # prefect page
       - navigation.instant
-      - navigation.instant.prefetch
+      # - navigation.instant.prefetch enable for insiders
       # The progress indicator will only show if the page hasn't finished loading after 400ms
       - navigation.instant.progress
       # top-level selection move to top tabs
       - navigation.tabs
+      - navigation.tabs.sticky
       # top-2 section rendered
       - navigation.sections
       # back to top
