@@ -66,8 +66,6 @@ theme:
       # top-level selection move to top tabs
       - navigation.tabs
       - navigation.tabs.sticky
-      # top-2 section rendered
-      - navigation.sections
       # back to top
       - navigation.top
       # When anchor tracking is enabled, the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents
