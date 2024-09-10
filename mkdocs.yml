@@ -93,6 +93,14 @@ repo_name: Atticuszz/mkdocs-obsidian-template
 
 edit_uri: edit/main/docs # Uncomment to define a different URI/URL for the "edit" option
 copyright: Copyright &copy; 2016 - 2024 Atticus Zhou
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:zhouge1831@gmail.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/Atticuszz
+    - icon: fontawesome/brands/linkedin
+      link: https://hk.linkedin.com/in/atticus-zhou-250a88323
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
