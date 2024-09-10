@@ -1,10 +1,8 @@
 [
-  "obsidian-zotero-desktop-connector",
   "quick-latex",
   "quick-explorer",
   "url-into-selection",
   "omnisearch",
-  "obsidian-importer",
   "obsidian-image-toolkit",
   "obsidian-git",
   "obsidian-excalidraw-plugin",
@@ -13,11 +11,9 @@
   "obsidian-auto-link-title",
   "obsidian-annotator",
   "obsidian-enhancing-export",
-  "obsidian-pandoc",
-  "obsidian-pandoc-reference-list",
   "obsidian-linter",
-  "darlal-switcher-plus",
   "obsidian-image-auto-upload-plugin",
   "cycle-through-panes",
-  "emoji-autocomplete"
+  "emoji-autocomplete",
+  "obsidian-latex-suite"
 ]
