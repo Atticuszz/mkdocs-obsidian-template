@@ -65,6 +65,8 @@ theme:
       - navigation.tabs
       # top-2 section rendered
       - navigation.sections
+      # back to top
+      - navigation.top
     icon:
       edit: material/pencil
       view: material/eye
