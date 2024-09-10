@@ -197,7 +197,7 @@ plugins:
   # The git-revision-date-localized plugin adds support for adding the date of last update and creation of a document at the bottom of each page
   - git-revision-date-localized:
       enable_creation_date: true
-      type: datetime 
+      type: iso_datetime 
       
   - search
   - roamlinks
