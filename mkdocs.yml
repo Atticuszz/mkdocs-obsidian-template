@@ -92,7 +92,7 @@ repo_url: https://github.com/Atticuszz/mkdocs-obsidian-template
 repo_name: Atticuszz/mkdocs-obsidian-template
 
 edit_uri: edit/main/docs # Uncomment to define a different URI/URL for the "edit" option
-
+copyright: Copyright &copy; 2016 - 2024 Atticus Zhou
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
