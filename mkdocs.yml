@@ -61,6 +61,8 @@ theme:
       # prefect page
       - navigation.instant
       - navigation.instant.prefetch
+      # top folder selection move to top tabs
+      - navigation.tabs
     icon:
       edit: material/pencil
       view: material/eye
