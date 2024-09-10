@@ -74,6 +74,8 @@ theme:
       - toc.follow
       # back to top
       - navigation.top
+      # hide header for reading
+      - header.autohide
       # When anchor tracking is enabled, the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents
       - navigation.tracking
       # search
@@ -84,7 +86,7 @@ theme:
       edit: material/pencil
       view: material/eye
       # set icon to repo: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=Some%20popular%20choices%3A
-      repo: fontawesome/brands/github
+      repo: fontawesome/brands/git-alt
       logo: logo-monochrome
 
 
@@ -199,8 +201,8 @@ plugins:
   # The git-revision-date-localized plugin adds support for adding the date of last update and creation of a document at the bottom of each page
   - git-revision-date-localized:
       enable_creation_date: true
-      type: iso_datetime 
-      
+      type: iso_datetime
+
   - search
   - roamlinks
   - blog
@@ -213,6 +215,13 @@ plugins:
         - tags
 # math and mermaid
 extra_javascript:
-  - js/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - js/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+
+
+extra_css:
+  # katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.css
