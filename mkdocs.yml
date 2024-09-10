@@ -68,6 +68,8 @@ theme:
       - navigation.tabs.sticky
       # not only section can be expanded
       - navigation.expand
+      # enable turn to before  or after  page in page button 
+      - navigation.footer
       # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible
       - toc.follow
       # back to top
