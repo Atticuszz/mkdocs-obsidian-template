@@ -82,7 +82,7 @@ theme:
       edit: material/pencil
       view: material/eye
       # set icon to repo: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=Some%20popular%20choices%3A
-      repo: fontawesome/brands/github
+      repo: fontawesome/brands/git-all 
       logo: logo-monochrome
 
 
