@@ -110,7 +110,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-
+  # The Table of Contents extension automatically generates a table of contents from a document
+  - toc:
+      permalink: true
 
 
   # mermaid
