@@ -10,6 +10,7 @@ dependencies = [
     "mkdocs-rss-plugin>=1.15.0",
     "pymdown-extensions>=10.9",
     "mkdocs-glightbox>=0.4.0",
+    "mkdocs-git-revision-date-localized-plugin",
 ]
 
 [project.scripts]
