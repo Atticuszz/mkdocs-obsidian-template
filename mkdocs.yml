@@ -65,6 +65,8 @@ theme:
       - navigation.tabs
       # top-2 section rendered
       - navigation.sections
+      # enable expanding section
+      - navigation.expand
     icon:
       edit: material/pencil
       view: material/eye
