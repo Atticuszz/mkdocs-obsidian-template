@@ -1,7 +1,5 @@
 # Copyright (c) 2016-2024 Atticus Zhou <zhouge1831@gmail.com>
 
-
-
 # Project information
 site_name: obsidian-mkdocs template
 site_url: https://atticuszz.github.io/mkdocs-obsidian-template
@@ -22,29 +20,28 @@ theme:
       # code
       - content.code.copy
       - content.action.edit
-      # - content.code.select  can be enable for insiders
       # footnotes
       - content.footnote.tooltips
+
+      ## navigation
       # The site_url setting must be set
       - navigation.instant
-      # - navigation.instant.prefetch enable for insiders
       # The progress indicator will only show if the page hasn't finished loading after 400ms
       - navigation.instant.progress
       # top-level selection move to top tabs
       - navigation.tabs
-      - navigation.tabs.sticky
-      # not only section can be expanded
+      # default to be expand
       - navigation.expand
-      # enable turn to before  or after  page in page button 
+      # enable turn to before  or after  page in page button
       - navigation.footer
-      # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible
-      - toc.follow
       # back to top
       - navigation.top
-      # hide header for reading
-      - header.autohide
       # When anchor tracking is enabled, the URL in the address bar is automatically updated with the active anchor as highlighted in the table of contents
       - navigation.tracking
+
+      # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible
+      - toc.follow
+
       # search
       - search.suggest
       - search.highlight
@@ -73,14 +70,34 @@ theme:
       text: 'Lora'
       code: 'JetBrains Mono'
 
+    # logo from https://obsidian.md/blog/new-obsidian-icon/
     favicon: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
     logo: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
+
     icon:
       edit: material/pencil
       repo: fontawesome/brands/git-alt
 
 
+plugins:
+  # The git-revision-date-localized plugin adds support for adding the date of last update and creation of a document at the bottom of each page
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_datetime
+  # adjust to obsidian path
+  - obsidian-bridge
+  # image zoom
+  - glightbox
+  - search
 
+  # - blog
+  # - rss:
+  #     match_path: blog/posts/.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
 
 extra:
   social:
@@ -91,72 +108,39 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://hk.linkedin.com/in/atticus-zhou-250a88323
 
-# +--------------------------------------------------------------------------------------------------------+
-# |                                                                                                        |
-# | MkDocs allows the usage of Markdown extensions which can do various things.                            |
-# |                                                                                                        |
-# | Material includes the pymdownx extension which provides a lot of useful features to use.               |
-# |                                                                                                        |
-# | Note that some extensions may use specific settings that you need to set.                              |
-# | Please check out the official documentation of PyMdownx for more information:                          |
-# | https://facelessuser.github.io/pymdown-extensions/                                                     |
-# |                                                                                                        |
-# | Material already provides required CSS and JS values for the PyMdownX Extensions, which means you do   |
-# | not need to set them up yourself.                                                                      |
-# |                                                                                                        |
-# | Read More:                                                                                             |
-# | - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions                                 |
-# |                                                                                                        |
-# +--------------------------------------------------------------------------------------------------------+
-markdown_extensions:
-  # admonition setting: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end:~:text=Custom%20admonitions-,Admonitions,-%C2%B6
-  - admonition
-  - pymdownx.details
 
+
+markdown_extensions:
+  ## page
   # The Table of Contents extension automatically generates a table of contents from a document
   - toc:
       permalink: true
-
-
-  # mermaid
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
+  ## basic markdown
   # attr_list
   - attr_list
   - markdown.extensions.codehilite:
       guess_lang: true
   - markdown.extensions.toc:
       permalink: true
-
-  # - pymdownx.b64
-  # - pymdownx.betterem
-  # - pymdownx.caret
-  # - pymdownx.critic
-  # - pymdownx.escapeall
-  # - pymdownx.extra
-  # - pymdownx.extrarawhtml
-
-  # - pymdownx.keys
-  # - pymdownx.magiclink
-
-  # - pymdownx.pathconverter
-  # - pymdownx.progressbar
-  # - pymdownx.smartsymbols
-  # -
-  # - pymdownx.striphtml
-  # - pymdownx.tabbed
+  # The BetterEm extension improves the detection of Markup to emphasize text in Markdown using special characters, i.e. for **bold** and _italic_ formatting.
+  - pymdownx.betterem:
+      smart_enable: all
   # list
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-    # math
-  - pymdownx.arithmatex:
-      generic: true
-  # - pymdownx.tilde
+
+  # highlight
+  - pymdownx.mark
+  # strikethrough
+  - pymdownx.tilde
+  # admonition setting: https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end:~:text=Custom%20admonitions-,Admonitions,-%C2%B6
+  - admonition
+  - pymdownx.details
+  # table
+  - tables
+  # footnotes
+  - footnotes
   #code
   - pymdownx.highlight:
       anchor_linenums: true
@@ -164,49 +148,28 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  # table
-  - tables
-  # footnotes
-  - footnotes
-
-  ## Formatting
-  # highlight
-  - pymdownx.mark
-  # strikethrough
-  - pymdownx.tilde
+  # math
+  - pymdownx.arithmatex:
+      generic: true
+  # mermaid
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   # emoji
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
   # Image
   - md_in_html
-plugins:
-  # image zoom
-  - glightbox
-  # The git-revision-date-localized plugin adds support for adding the date of last update and creation of a document at the bottom of each page
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: iso_datetime
 
-  - search
-  - roamlinks
-  - blog
-  - rss:
-      match_path: blog/posts/.*
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 # math and mermaid
 extra_javascript:
   - js/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
-
-
 
 extra_css:
   # katex.js

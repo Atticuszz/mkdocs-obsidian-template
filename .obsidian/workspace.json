@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Features/Diagrams.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Features/Diagrams.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Features/Diagrams.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Features/Diagrams.md"
+                "file": "README.md"
               }
             }
           },
@@ -202,31 +202,32 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
-      "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "afcfd986b2417280",
   "lastOpenFiles": [
+    "docs/index.md",
+    "README.md",
+    "assets/picgo",
+    "docs/Features/code.md",
+    "docs/blog/posts/hello-world.md",
+    "docs/Features/Text Formatting.md",
+    "docs/Features/Diagrams.md",
     "docs/Features/LaTeX Math Support.md",
     "docs/Features/Table.md",
-    "docs/Features/Text Formatting.md",
     "docs/Features/Image.md",
     "docs/Features/footntoes.md",
     "docs/Features/Icons, Emojis.md",
     "docs/Features/Admonitions.md",
-    "README.md",
     "assets/drawio/test.drawio.svg",
     "assets/drawio/test.drawio",
     "assets/drawio",
     "assets",
     "docs/Features/list.md",
-    "docs/Features/Diagrams.md",
     "docs/Features/markdown_extensions.md",
     "docs/Features/Draw.md",
     "assests/drawio/test.drawio.svg",
@@ -236,7 +237,6 @@
     "Excalidraw/Drawing 2024-09-09 09.42.57.excalidraw.md",
     "Excalidraw",
     "docs/Features/Mermaid Diagrams.md",
-    "docs/Features/code.md",
     "essay/texs/GsplatLoc/main.md",
     "docs/tools/IDE/vscode.md",
     "essay/texs/GsplatLoc/mess notes.md",
@@ -246,10 +246,8 @@
     "docs/OS/Ubuntu/shell.md",
     "docs/Language/python/py-env/conda.md",
     "docs/Language/python/py-env/Poetry.md",
-    "docs/Language/python/py-env/Pip.md",
     "essay/zotero/attachments/gs_spalt/introduce/Sandström et al_2023_Point-slam.pdf",
     "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF2.pdf",
-    "essay/zotero/attachments/gs_spalt/introduce/Mildenhall et al_2022_NeRF.pdf",
     "assets/20240822115648.png",
     "assets/Pasted image 20240727181456.png",
     "assets/Pasted image 20240727181353.png",

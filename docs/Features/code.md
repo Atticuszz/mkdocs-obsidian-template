@@ -18,4 +18,10 @@ async def read_item(item_id: int, q: Union[str, None] = None):
 ```
 
 ## inline
-The `#!python range()` function is used to generate a sequence of numbers.
+The `range()` function is used to generate a sequence of numbers.
+
+[[docs/Features/Diagrams|Diagrams]]
+[Diagrams](Diagrams.md)
+[Draw](docs/Features/Draw.md)
+
+

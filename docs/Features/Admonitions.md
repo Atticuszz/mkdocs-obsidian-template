@@ -1,5 +1,5 @@
 
-# Obsidian admonition Types and Examples
+## Obsidian admonition Types and Examples
 
 1. Note
 !!! note Note
