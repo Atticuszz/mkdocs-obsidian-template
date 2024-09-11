@@ -23,7 +23,7 @@ With this template, you get these **out-of-the-box**:
 
 ## Quick start
 
-1. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/Atticuszz/mkdocs-obsidian-template/generate). 
+1. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/Atticuszz/mkdocs-obsidian-template/generate). remember to **Include all branches**
 
 ![](https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/picgo20240911105138.png)
 
