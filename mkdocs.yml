@@ -73,8 +73,8 @@ theme:
       text: 'Lora'
       code: 'JetBrains Mono'
 
-    favicon: https://simpleicons.org/icons/obsidian.svg
-    logo: https://simpleicons.org/icons/obsidian.svg
+    favicon: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
+    logo: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
     icon:
       edit: material/pencil
       repo: fontawesome/brands/git-alt
