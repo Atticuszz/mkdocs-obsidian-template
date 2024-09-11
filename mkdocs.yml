@@ -1,56 +1,23 @@
-site_name: obsidian-mkdocs template
+# Copyright (c) 2016-2024 Atticus Zhou <zhouge1831@gmail.com>
 
+
+
+# Project information
+site_name: obsidian-mkdocs template
+site_url: https://atticuszz.github.io/mkdocs-obsidian-template
+
+# Repository
+# To display a link to the repository of your project as part of your documentation: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=In%20order%20to%20display%20a%20link%20to%20the%20repository%20of%20your%20project%20as%20part%20of%20your%20documentation
+repo_url: https://github.com/Atticuszz/mkdocs-obsidian-template
+repo_name: Atticuszz/mkdocs-obsidian-template
+edit_uri: edit/main/docs
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2024 Atticus Zhou
+
+# Configuration
 theme:
     name: 'material'
-    palette:
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "palette" section is a Material option and allows you to define specific style options such as   |
-  # | Color-Scheme, and primary and secondary Color.                                                       |
-  # |                                                                                                      |
-  # | You can also define multiple palettes that can have different Color Schemses and primary and/or      |
-  # | secondary Colors.                                                                                    |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/                             |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
-
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: green
-      accent: green
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: green
-      accent: green
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | With the "font" option can you set a different font to use.                                          |
-  # |                                                                                                      |
-  # | Material supports all Google fonts, but you can also define your own ones if you choose so.          |
-  # |                                                                                                      |
-  # | The "text" option is used for the regular font while "code" is used for code blocks, inline code and |
-  # | similar.                                                                                             |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
-    font:
-      text: 'Lora'
-      code: 'JetBrains Mono'
-
-
-    # set edit option in page with jump to edit_uri:
     features:
       # code
       - content.code.copy
@@ -82,21 +49,39 @@ theme:
       - search.suggest
       - search.highlight
       - search.share
+    palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    font:
+      text: 'Lora'
+      code: 'JetBrains Mono'
+
+    favicon: https://simpleicons.org/icons/obsidian.svg
+    logo: https://simpleicons.org/icons/obsidian.svg
     icon:
       edit: material/pencil
-      view: material/eye
-      # set icon to repo: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=Some%20popular%20choices%3A
       repo: fontawesome/brands/git-alt
-      logo: logo-monochrome
 
 
-# To display a link to the repository of your project as part of your documentation: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=In%20order%20to%20display%20a%20link%20to%20the%20repository%20of%20your%20project%20as%20part%20of%20your%20documentation
-repo_url: https://github.com/Atticuszz/mkdocs-obsidian-template
-# set repo name
-repo_name: Atticuszz/mkdocs-obsidian-template
-site_url: https://atticuszz.github.io/mkdocs-obsidian-template
-edit_uri: edit/main/docs # Uncomment to define a different URI/URL for the "edit" option
-copyright: Copyright &copy; 2016 - 2024 Atticus Zhou
+
+
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -193,6 +178,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
   # Image
   - md_in_html
 plugins:
