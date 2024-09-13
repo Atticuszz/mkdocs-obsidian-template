@@ -15,7 +15,8 @@ This template gives you an easy (and automated) way to publish your Obsidian not
 
 With this template, you get these **out-of-the-box**:
 
-![](https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/picgo20240911105051.png)
+![](assets/Pasted%20image%2020240913220339.png)
+
 
 - get the Obsidian/Roam style `[[wikilinks]]` from your vault in your published notes
 - Toggle between light and dark mode
