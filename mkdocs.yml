@@ -71,8 +71,8 @@ theme:
       code: 'JetBrains Mono'
 
     # logo from https://obsidian.md/blog/new-obsidian-icon/
-    favicon: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
-    logo: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/obsidian.svg
+    favicon: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/favicon.svg
+    logo: https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/icon/logo.svg
 
     icon:
       edit: material/pencil
